@@ -1,7 +1,8 @@
-
 #version 100
 precision highp float;
 precision highp int;
+
+#pragma name ambient
 
 #define NUM_GBUFFERS 4
 

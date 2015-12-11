@@ -84,7 +84,6 @@ window.loadModel = function(obj, callback) {
         if (xhr.lengthComputable) {
             var percentComplete = xhr.loaded / xhr.total * 100;
             var msg = obj + ': ' + Math.round(percentComplete, 2) + '% loaded';
-            console.log(msg);
             $('#msgbox').text(msg);
         }
     };
